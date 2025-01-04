@@ -1,0 +1,32 @@
+.feedOptions {
+    border-right: solid 1px var(--secondary-color);
+    padding: 10px;
+}
+
+.feedNav {
+    display:inline-flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    text-align: center;
+    z-index: 10;
+    border-radius: 10pt;
+    border: solid 2px black;
+    position: sticky;
+    top: 60px;
+}
+
+.feedNav a {
+    padding: 5pt;
+    border: solid 1px var(--secondary-accent-color);
+}
+
+.feedNav a:hover{
+    background-color: var(--secondary-accent-color);
+    color: whitesmoke;
+}
+
+.feedNav a:focus-visible{
+    background-color: var(--secondary-accent-color);
+    color: whitesmoke;
+    outline: none;
+}

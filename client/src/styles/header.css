@@ -1,0 +1,88 @@
+header {
+    position: sticky;
+    top: 0;
+    overflow-x: hidden;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    width: 100%;
+    box-shadow: var(--secondary-color ) 0 10px 10px;
+    z-index: 50;
+}
+
+.logo {
+    justify-self: right;
+    align-self: center;
+    flex: 1 1 0;
+    padding-left: 10pt;
+}
+
+.searchBar {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 0;
+}
+
+.searchBar > Form {
+    width: 100%;
+    /* border: solid #A1A1A1 1px; */
+    border-radius: 10pt;
+    
+}
+
+.searchBar > Form > input {
+    color: black;
+    width: 80%;
+    padding-left: 10pt;
+    border-top-left-radius: 10pt;
+    border-bottom-left-radius: 10pt;
+    border-top: solid var(--secondary-color) 2px;
+    border-bottom: solid var(--secondary-color) 2px;
+    border-left: solid var(--secondary-color) 2px;
+}
+
+.searchBar > Form > input:hover{
+    border-color: var(--secondary-accent-color);
+}
+
+.searchBar > Form > input:focus-visible{
+    border-color: var(--secondary-accent-color);
+    outline: none;
+}
+
+.searchBar > Form > button {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content + 50px;
+    color: whitesmoke;
+    background-color: var(--primary-color);
+    border-top-right-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+    border-top: solid var(--secondary-color) 2px;
+    border-bottom: solid var(--secondary-color)1 2px;
+    border-right: solid var(--secondary-color) 2px;
+}
+
+.searchBar > Form > button:hover{
+    border-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
+}
+
+.searchBar > Form > button:focus-visible{
+    border-color: var(--secondary-accent-color);
+    background-color: var(--secondary-color);
+}
+
+.account {
+    padding-right: 10pt;
+    text-align: right;
+    justify-self: right;
+    align-self: center;
+    flex: 1 1 0;
+}

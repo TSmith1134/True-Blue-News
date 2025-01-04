@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-background-color: #42A5F5;
+  --primary-text-color: whitesmoke;
+  --primary-color: #1976D2;
+  --secondary-color: #A1A1A1;
+  --secondary-accent-color: #646464;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: calc(14pt + 0.1vw);
+  font-weight: 400;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  width: 100% !important;
+}
+
+h1{
+  font-size: calc(26pt + 0.1vw);
+  line-height: calc(1.1em + 0.5vw);
+  font-weight: 900;
+}
+
+h2{
+  font-size: calc(20pt + 0.1vw);
+  line-height: calc(0.9em + 0.5vw);
+}
+
+h3{
+  font-size: calc(18pt + 0.1vw);
+}
+
+h4{
+  font-size: calc(16pt + 0.1vw);
+}
+
+h5{
+  font-size: calc(14pt + 0.1vw);
+}
+
+h6{
+  font-size: calc(10pt + 0.1vw);
+}
+
+p{
+  font-size: calc(12pt + 0.1vw);
+  font-weight: 400;
+  line-height: calc(0.7em + 0.5vw);
+}
+
+a {
+  font-size: calc(12pt + 0.1vw);
+}
